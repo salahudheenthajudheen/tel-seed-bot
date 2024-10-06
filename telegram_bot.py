@@ -10,9 +10,9 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s', level=loggi
 logger = logging.getLogger(__name__)
 
 # Replace with your API tokens
-TELEGRAM_API_TOKEN = '7910391189:AAGpE7FDh3aQEvr65x4xmPZ8cW8wojpGDjk'
-OPENWEATHER_API_KEY = 'ac2fd26259bbc22cc23f9281686076a6'
-NASA_API_KEY = 'VGu5eq99CQYvZeZflgZrxJFVrnUl3dhVtAVIy1qn'
+TELEGRAM_API_TOKEN = 'YOUR_TELEGRAM_API_TOKEN'
+OPENWEATHER_API_KEY = 'YOUR_OPENWEATHER_API_KEY'
+NASA_API_KEY = 'YOUR_NASA_API_KEY'
 
 # States for conversation handler
 LOCATION, DATE, CROP = range(3)
